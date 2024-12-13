@@ -59,7 +59,7 @@ const TodoHeader = () => {
                       {...provided.dragHandleProps}
                     >
                       <div className="card p-3 shadow-sm titcard">
-                        <h5 className="text-center">{item.title}</h5>
+                        <h5 className="text-center fs-1 fw-bold">{item.title}</h5>
                         <div className="d-flex justify-content-center mt-2">
                           <button className="btn text-white btn-sm me-2"
                           style={{backgroundColor:"#5710d9"}}

@@ -15,7 +15,7 @@ const TodoModal = ({ showModal, handleClose, handleSaveChanges, title, setTitle,
       <div className="modal-dialog" role="document">
         <div className="modal-content">
           <div className="modal-header">
-            <h5 className="modal-title">{editingIndex !== null ? "Edit Todo" : "Add Todo"}</h5>
+            <h5 className="modal-title">Todo Title</h5>
           
           </div>
           <div className="modal-body">
