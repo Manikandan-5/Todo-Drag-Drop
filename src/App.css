@@ -1,0 +1,22 @@
+.App {
+  text-align: center;
+}
+
+#particles{
+  z-index: -1;
+  width: 100%;
+position: absolute;
+}
+
+.titcard {
+  border: 3px solid #5710d9;
+  background-color: rgba(255, 255, 255, 0.5);  /* 50% opacity white */
+  transition: all 0.3s ease;  /* Smooth transition for all properties */
+}
+
+.titcard:hover {
+  background-color: rgba(255, 255, 255, 0.5);  /* Full opacity on hover */
+  transform: scale(1.05);  /* Slightly enlarge the card on hover */
+}
+
+
